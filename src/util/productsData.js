@@ -2,6 +2,11 @@ const productsData = [
   {
     id: "calm",
     label: "진정 · 보습",
+    mainProduct: {
+      image: "/images/calm1.png",
+      description: "히알루론산 수분팩",
+      link: "/product/calm1"
+    },
     subProducts: [
       {
         image: "/images/calm1.png",
@@ -29,10 +34,15 @@ const productsData = [
   {
     id: "elastic",
     label: "탄력",
+    mainProduct: {
+      image: "/images/elastic1.png",
+      description: "콜라겐 탄력 마스크",
+      link: "/product/elastic1"
+    },
     subProducts: [
       {
         image: "/images/elastic1.png",
-        description: "콜라겐 마스크",
+        description: "콜라겐 탄력 마스크",
         link: "/product/elastic1"
       },
       {
@@ -56,6 +66,11 @@ const productsData = [
   {
     id: "pore",
     label: "모공 · 흔적",
+    mainProduct: {
+      image: "/images/pore1.png",
+      description: "모공 케어 팩",
+      link: "/product/pore1"
+    },
     subProducts: [
       {
         image: "/images/pore1.png",
@@ -83,6 +98,11 @@ const productsData = [
   {
     id: "glow",
     label: "광채 · 영양",
+    mainProduct: {
+      image: "/images/glow1.png",
+      description: "비타민 광채 앰플",
+      link: "/product/glow1"
+    },
     subProducts: [
       {
         image: "/images/glow1.png",
